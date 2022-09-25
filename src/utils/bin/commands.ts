@@ -144,8 +144,8 @@ export const banner = (args?: string[]): string => {
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝      ╚═╝   
 
 Type 'sumfetch' to display my summary
-Type 'help' to see the list of available commands
 Type 'resume' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.resume_url}" target="_blank">here</a></u> for my resume
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repo
+Type 'help' to see the list of available commands
 `;
 };
