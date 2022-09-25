@@ -83,7 +83,7 @@ export const duckduckgo = async (args: string[]): Promise<string> => {
 
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
+  return `Bing? Have fun with your 6 results for ${args.join(' ')}?`;
 };
 
 export const reddit = async (args: string[]): Promise<string> => {
@@ -101,16 +101,11 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `only directory here is the one to your heart <3`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `what are you gonna cd into? there's nothing here`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -118,19 +113,19 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
+  return `what is 'vi', grandpa?`;
 };
 
 export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
+  return `'vim'? that's so 1991`;
 };
 
 export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
+  return `ooo pretty colors`;
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
+  return `I just use nano`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
