@@ -16,6 +16,10 @@ export const help = async (args: string[]): Promise<string> => {
   }
   return `Welcome! Here are all the available commands:
 \n${c}\n
+
+For search engine commands such as 'reddit' and 'google' type your desired search after the command:
+Example: 'reddit ducks' will pull up reddit results for ducks
+
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
 Type 'sumfetch' to display a summary with links.
