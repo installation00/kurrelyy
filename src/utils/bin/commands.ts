@@ -28,6 +28,11 @@ export const repo = async (args: string[]): Promise<string> => {
   return 'Opening Github repository...';
 };
 
+export const github_profile = async (args: string[]): Promise<string> => {
+  window.open(`${config.github_profile}`);
+  return 'Opening Github profile...';
+};
+
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hey, I am ${config.name}. 
@@ -35,6 +40,7 @@ Welcome to my site!
 More about me:
 'sumfetch' - a short summary with links
 'resume' - latest iteration of my resume
+'github' - my Github profile
 'readme' - the repo readme`;
 };
 
@@ -146,6 +152,7 @@ Networking, Cybersecurity, & Project Management
 
 Type 'sumfetch' to display my summary
 Type 'resume' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.resume_url}" target="_blank">here</a></u> for my resume
+Type 'github_profile' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.github_profile}" target="_blank">here</a></u> for my Github profile
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repo
 Type 'help' to see the list of available commands
 `;
