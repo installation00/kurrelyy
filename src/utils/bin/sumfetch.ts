@@ -1,7 +1,7 @@
 import config from '../../../config.json';
 
 const sumfetch = async (args: string[]): Promise<string> => {
-  if (config.ascii === 'cveinnt') {
+  if (config.ascii === 'kurrelyy') {
     return `                                                  
                                     /@@@@@@@,                                   
                           #@@@@@@@@@@@@@@@@@@@@@@@@@@@,                         
@@ -35,7 +35,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
                            @@@,*@@@  @  @ @@@ @@@ @@@@                          
                                      *@@@@@,                                    ⠀⠀
 `;
-/*  } else {
+  } else {
     return `
 ░░░░░░░░░░░▓▓▓███████████████████████▓▓▓▄             sumfetch
 ░░░░░░░░░▓▓▓░█░░░░░░░░▓░░░░░▓░░░░░░░░█░▓▓▓           -----------
@@ -58,7 +58,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 ░░░░░░░░░░░░░█▓▓░░░░█░░░░░░░░░█░░░░▓▓█
 ░░░░░░░░░░░░░░░░██████▓▓▓▓▓▓▓██████⠀
 `;
-  } */
+  }
 };
 
 export default sumfetch;
