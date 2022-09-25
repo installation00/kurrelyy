@@ -1,0 +1,39 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/installation00/kurrelyy/master/README.md",
+  "title": "kurrelyy",
+  "name": "Herman Kurrelmeier",
+  "ascii": "kurrelyy",
+  "social": {
+    "github": "github",
+    "linkedin": "linkedin"
+  },
+  "email": "hmkurrelmeier@gmail.com",
+  "ps1_hostname": "kurrelyy",
+  "ps1_username": "guest",
+  "repo": "https://github.com/installation00/kurrelyy",
+  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "donate_urls": {
+    "paypal": "https://google.com",
+    "patreon": "https://google.com"
+  },
+  "colors": {
+    "light": {
+      "background": "#FBF1C9",
+      "foreground": "#3C3836",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#7C6F64",
+      "blue": "#458588",
+      "red": "#CA2124"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
