@@ -37,6 +37,12 @@ export const github_profile = async (args: string[]): Promise<string> => {
   return 'Opening Github profile...';
 };
 
+export const linkedin = async (args: string[]): Promise<string> => {
+  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
+
+  return 'Opening linkedin profile...';
+};
+
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hey, I am ${config.name}. 
@@ -72,12 +78,6 @@ export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
 
   return 'Opening github...';
-};
-
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
-
-  return 'Opening linkedin...';
 };
 
 // Search
@@ -156,6 +156,7 @@ Networking, Cybersecurity, & Project Management
 
 Type 'sumfetch' to display my summary
 Type 'resume' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.resume_url}" target="_blank">here</a></u> for my resume
+Type 'linkedin' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.linkedin}" target="_blank">here</a></u> for my linkedin
 Type 'github_profile' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.github_profile}" target="_blank">here</a></u> for my Github profile
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repo
 Type 'help' to see the list of available commands
