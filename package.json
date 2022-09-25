@@ -8,6 +8,7 @@
     "email": "hmkurrelmeier@gmail.com"
   },
   "scripts": {
+    "start": "PORT=8080 npm start"
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
