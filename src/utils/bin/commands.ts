@@ -142,6 +142,7 @@ export const banner = (args?: string[]): string => {
 ██╔═██╗ ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║    ╚██╔╝    ╚██╔╝  
 ██║  ██╗╚██████╔╝██║  ██║██║  ██║███████╗███████╗██║      ██║   
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝      ╚═╝   
+Networking, Cybersecurity, & Project Management
 
 Type 'sumfetch' to display my summary
 Type 'resume' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.resume_url}" target="_blank">here</a></u> for my resume
