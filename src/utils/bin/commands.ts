@@ -156,7 +156,7 @@ Networking, Cybersecurity, & Project Management
 
 Type 'sumfetch' to display my summary
 Type 'resume' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.resume_url}" target="_blank">here</a></u> for my resume
-Type 'linkedin' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.linkedin}" target="_blank">here</a></u> for my linkedin
+Type 'linkedin' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.social.linkedin}" target="_blank">here</a></u> for my linkedin
 Type 'github_profile' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.github_profile}" target="_blank">here</a></u> for my Github profile
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repo
 Type 'help' to see the list of available commands
