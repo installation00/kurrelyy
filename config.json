@@ -11,7 +11,7 @@
   "ps1_hostname": "kurrelyy",
   "ps1_username": "guest",
   "repo": "https://github.com/installation00/kurrelyy",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "resume_url": "./public/resume/Herman_Kurrelmeier_Resume.pdf",
   "donate_urls": {
     "paypal": "https://google.com",
     "patreon": "https://google.com"
