@@ -30,8 +30,8 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
+  return `Hey, I am ${config.name}. 
+Welcome to my site!
 More about me:
 'sumfetch' - a short summary with links
 'resume' - latest iteration of my resume
